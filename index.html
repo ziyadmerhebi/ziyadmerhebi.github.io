@@ -10,107 +10,244 @@
 
     <title>Ziyad Merhebi</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/half-slider.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
   </head>
 
-  <body>
+  <body id="page-top">
+
+    
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Ziyad Merhebi</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Bio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+      </ul>
     </nav>
 
-    <header>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('https://discordapp.com/assets/ba74954dde74ff40a32ff58069e78c36.png')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Discord Music Bot</h3>
-              <p>A simple Discord bot created with node.js that allows users to request songs from YouTube</p>
-            </div>
-          </div>
-        
-          <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Second Slide</h3>
-              <p>This is a description for the second slide.</p>
-            </div>
-          </div>
-          <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('https://gogonihon.com/wp-content/uploads/2018/01/Ghibli-1.jpg')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Anime App</h3>
-              <p>A Progressive Web App that utilizes the News and Studio Ghibli API's to display news and information about Anime shows and movies</p>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h1 class="mb-1">Ziyad Merhebi</h1>
+        <h3 class="mb-5">
+          <em>Github Projects and Computer Science Resume</em>
+        </h3>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Scroll Down</a>
       </div>
+      <div class="overlay"></div>
     </header>
 
-    <!-- Page Content -->
-    <section class="py-5">
-      <div class="container">
-        <h1>Half Slider by Start Bootstrap</h1>
-        <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the
-          <code>half-slider.css</code>
-          file.</p>
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Bio</h2>
+            <p class="lead mb-5">Computer Science Major at the University of Illinois at Chicago.
+              <!--<a href="https://unsplash.com/">Unsplash</a>!</p>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>-->
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
+   <!-- 
+    <section class="content-section bg-primary text-white text-center" id="services">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+        <div class="content-section-heading">
+          <h3 class="text-secondary mb-0">Services</h3>
+          <h2 class="mb-5">What We Offer</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-screen-smartphone"></i>
+            </span>
+            <h4>
+              <strong>Responsive</strong>
+            </h4>
+            <p class="text-faded mb-0">Looks great on any screen size!</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-pencil"></i>
+            </span>
+            <h4>
+              <strong>Redesigned</strong>
+            </h4>
+            <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-like"></i>
+            </span>
+            <h4>
+              <strong>Favorited</strong>
+            </h4>
+            <p class="text-faded mb-0">Millions of users
+              <i class="fas fa-heart"></i>
+              Start Bootstrap!</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-mustache"></i>
+            </span>
+            <h4>
+              <strong>Question</strong>
+            </h4>
+            <p class="text-faded mb-0">I mustache you a question...</p>
+          </div>
+        </div>
       </div>
-      <!-- /.container -->
+    </section>
+
+    
+    <section class="callout">
+      <div class="container text-center">
+        <h2 class="mx-auto mb-5">Welcome to
+          <em>your</em>
+          next website!</h2>
+        <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
+      </div>
+    </section>-->
+
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Portfolio</h3>
+          <h2 class="mb-5">Recent Projects</h2>
+        </div>
+
+        <script>
+            var projects = [{name: "Project-1", repo_url: "https://github.com/zmerhe2/Project-1", live_url: "https://zmerhe2.github.io/Project-1/" , technologies: "HTML/CSS"}];
+          
+          </script>
+
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://zmerhe2.github.io/Project-1/" target="_blank">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Bootstrap Website</h2>
+                  <p class="mb-0">A Bootstrap Template Project.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://zmerhe2.github.io/it202-project2/" target="_blank">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Scrolling Game</h2>
+                  <p class="mb-0">A simple scrolling game done with HTML & CSS.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://zmerhe2.github.io/it202-project3/" target="_blank">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Chicago Library App</h2>
+                  <p class="mb-0">A Material Components and Google Maps Project.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://zmerhe2.github.io/FinalProject/" target="_blank">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Anime App</h2>
+                  <p class="mb-0">An anime app utilizing the Studio Ghibli API.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      /**
+        * load screen content via AJAX
+        * @function
+        * @param {string} screenName - name to load, without _
+        */
+        function loadScreen(screenName) {
+          $("#content").load("./_" + screenName + ".html", function () {
+            console.log("------ Screen load: " + screenName);
+        });
+
+        }
+    </script>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <!--<li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+              <i class="icon-social-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+              <i class="icon-social-twitter"></i>
+            </a>
+          </li>-->
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="https://github.com/ziyadmerhebi" targe="_blank">
+              <i class="icon-social-github"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; Ziyad Merhebi 2019</p>
+      </div>
     </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
 
   </body>
 
